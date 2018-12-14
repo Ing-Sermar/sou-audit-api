@@ -27,6 +27,6 @@ class CreateAuditTypesTable extends Migration
      */
     public function down()
     {
-        Schema::createdropIfExists('audit_types');
+        Schema::dropIfExists('audit_types');
     }
 }
